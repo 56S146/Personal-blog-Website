@@ -1,0 +1,9 @@
+button
+ {
+    grid-area: auto;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: rgb(235, 86, 86) ;
+    color: black;
+    padding: 12px 30px;
+ } 

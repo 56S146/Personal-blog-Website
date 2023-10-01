@@ -1,0 +1,42 @@
+@import url('./card.css');
+@import url('./nav.css');
+@import url('./img.css');
+@import url('./button.css');
+
+
+@media(max-width:901px)
+{
+  body
+  {
+    display: grid;
+    font-family:'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    grid-template-rows: 250px 600px;
+    grid-area: "hd" "ft";
+  }
+}
+  .blockquote {
+    margin-left: 0;
+  }
+
+  .title
+ {
+    color: black;
+    font-size: 28px;
+ }
+
+
+span
+ {
+  color: rgb(182, 17, 72);
+ } 
+
+.footer
+ {
+    grid-area: ft;
+    text-align: center;
+    color: rgb(17, 17, 192);
+    background-color: rgb(243, 146, 146);
+ }

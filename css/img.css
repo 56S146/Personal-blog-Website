@@ -1,0 +1,18 @@
+
+ figure
+ {
+    border: 1px #7ddd92 solid;
+    padding: 4px;
+    margin: auto;
+ }
+
+ figcaption
+ {
+    background-image:("comptianetwork1.jpg");
+    background-size: cover;
+    background-position: center;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+ }
+

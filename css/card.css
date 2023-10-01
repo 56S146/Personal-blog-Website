@@ -1,0 +1,19 @@
+#flex-card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#card button
+{
+    background-color: aquamarine;
+    padding: 5px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+#card button a
+{
+  color: aliceblue;
+  text-decoration: none;
+}
